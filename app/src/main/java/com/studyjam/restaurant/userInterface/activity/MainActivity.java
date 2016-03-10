@@ -54,6 +54,9 @@ public class MainActivity extends AppCompatActivity {
 
       }
     });
+
     mTabLayout.setupWithViewPager(mViewPager);
+    mTabLayout.getTabAt(0).setText("Vall lr");
+    mTabLayout.getTabAt(1).setText("Vall vl");
   }
 }
